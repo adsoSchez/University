@@ -13,7 +13,6 @@ public partial class Inscripcione
 
     public DateOnly? FechaInscripcion { get; set; }
 
-    public virtual Curso Curso { get; set; } = null!;
-
-    public virtual Estudiante Estudiante { get; set; } = null!;
+    public virtual Curso? Curso { get; set; }
+    public virtual Estudiante? Estudiante { get; set; } 
 }
